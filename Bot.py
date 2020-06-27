@@ -17,7 +17,7 @@ async def on_ready():
     print(bot.user.id)
     print(discord.__version__)
     print('------')
-    await bot.change_presence(status=discord.Status.online, activity=discord.Game("DM MysteriousK#6969 or Aypro's Hyper#2399 to buy prem Access"))
+    await bot.change_presence(status=discord.Status.online, activity=discord.Game("DM MysteriousK#1476 to buy prem Access"))
 
 @bot.command(name='minecraft')
 @commands.has_role('Gen Access')
@@ -122,10 +122,10 @@ async def help_gen(ctx):
     embed.add_field(name="**Generate Steam Key(has a very less chance of getting a working one)**", value="command: !robux", inline=False)
     embed.add_field(name="**Generate Minecraft Windows 10 Code(has a very less chance of getting a working one)**", value="command: !steamkey", inline=False)
     embed.add_field(name="**Generate Minecraft Google Play GiftCard(has a very less chance of getting a working one)**", value="command: !gplay", inline=False)
-    embed.add_field(name="**DM One Of The Devs To Buy Premium Access/Custom Gen Bot For Yourself**", value="Aypro's Hyper#2399 or MysteriousK#6969", inline=True)
-    embed.set_author(name="Made by Aypro's Hyper#2399 & MysteriousK#6969", icon_url="https://cdn.discordapp.com/avatars/652456629316485120/97697929da00bc0bfeb3610cbd2624ef.png?size=256g")
+    embed.add_field(name="**DM Devs To Buy Premium Access/Custom Gen Bot For Yourself**", value="MysteriousK#1476", inline=True)
+    embed.set_author(name="Made by MysteriousK#1476", icon_url="https://cdn.discordapp.com/avatars/652456629316485120/97697929da00bc0bfeb3610cbd2624ef.png?size=256g")
     await ctx.send(embed=embed)
 
 
 
-bot.run('Njc3NjExNDQzMDYyOTY0Mjk2.Xsteaw.tpW3uDn7-jW73ad-T1H4gw9WXjE')
+bot.run('token')
