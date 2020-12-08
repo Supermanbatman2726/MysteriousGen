@@ -23,4 +23,4 @@ for filename in os.listdir("./cogs"):
         print(f"Loaded cog {filename}")
         print()
 
-bot.run('NzczMDkyODk1NDgwNjEwODE2.X6EM3Q.1B7O_sWcCOpFqgeS5uLv2BjW8lk')
+bot.run('TOKEN')
